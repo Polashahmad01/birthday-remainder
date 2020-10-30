@@ -7,7 +7,7 @@ const App = () => {
     const [people, setPeople ] = useState(data);
 
     const onClearButton = () => {
-        setPeople([]);
+        setPeople(data.length = []);
     }
 
     return (
